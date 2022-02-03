@@ -1,0 +1,13 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "dialguiba",
+    "password": "123456",
+    "database": "admin",
+    "entities": [
+        "src/entity/*.ts"
+    ],
+    "logging": false,
+    "synchronize": true
+}
